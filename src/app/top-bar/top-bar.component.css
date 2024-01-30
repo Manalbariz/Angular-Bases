@@ -1,0 +1,41 @@
+.topBar{
+
+    height: 90px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    /* padding-top: 1rem; */
+    background-color: rgb(185, 239, 239);
+    
+}
+
+.store{
+    color: #000000;
+    text-decoration: none;
+    padding-top: 1rem;
+    margin: 15px 0px 15px 15px;
+}
+.buttonCart {
+	box-shadow: 3px 2px 0px 0px #381f38;
+	background-color:transparent;
+	border-radius:18px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	padding:14px 20px;
+    /* margin: 2px 5px; */
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+    margin: 15px 15px 15px 0px ;
+
+}
+.buttonCart:hover {
+	background-color:transparent;
+}
+.buttonCart:active {
+	position:relative;
+	top:1px;
+}
